@@ -25,7 +25,7 @@ echo "test data" | luajit example/compdecomp_string.lua -c > result.bin # compre
 ### Decompress then Compress to Test the exact match
 ```bash
 luajit example/main_compare.lua "/path/to/rep/accurate-kosinski/test/kosinski/Sonic 2/art/kosinski/CNZ.bin"
-luajit example/main_compare.lua "/path/to/rep/accurate-kosinski/test/moduled kosinski/Sonic 3 & Knuckles/Levels/BPZ/KosinskiM Art/Title Card.bin"
+luajit example/main_compare.lua -m "/path/to/rep/accurate-kosinski/test/moduled kosinski/Sonic 3 & Knuckles/Levels/BPZ/KosinskiM Art/Title Card.bin"
 ```
 
 # Installation
